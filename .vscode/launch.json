@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "name": "Debug Espresso",
+      "target": "Espresso",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug Espresso"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "name": "Release Espresso",
+      "target": "Espresso",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release Espresso"
+    }
+  ]
+}
